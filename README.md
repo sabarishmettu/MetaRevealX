@@ -7,6 +7,7 @@
 🌐 **Live Demo / Test Link**: [https://metareveal-x.vercel.app/](https://metareveal-x.vercel.app/)
 
 ---
+<img width="287" height="101" alt="image" src="https://github.com/user-attachments/assets/e63df718-9188-4aeb-99a8-9f7ec63fcb40" />
 
 ## ⚡ Overview
 
