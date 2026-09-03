@@ -1,0 +1,6 @@
+{
+  "name": "MetaRevealX",
+  "description": "Browser-based file privacy and metadata security platform. Scan, detect, edit, and sanitize hidden EXIF, GPS, device, and sensitive metadata client-side.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
