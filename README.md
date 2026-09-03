@@ -1,3 +1,5 @@
+<img width="273" height="80" alt="Screenshot 2026-09-03 131439" src="https://github.com/user-attachments/assets/2aa25275-a059-4943-b562-3725cc6d7174" />
+
 # MetaRevealX 🛡️
 
 **Zero-Server, Browser-Based Metadata Security & Privacy Platform**
@@ -7,7 +9,6 @@
 🌐 **Live Demo / Test Link**: [https://metareveal-x.vercel.app/](https://metareveal-x.vercel.app/)
 
 ---
-<img width="287" height="101" alt="Screenshot 2026-09-03 131226" src="https://github.com/user-attachments/assets/f1ca4972-4e55-4a41-aa74-c9ebef53a6b8" />
 
 
 ## ⚡ Overview
