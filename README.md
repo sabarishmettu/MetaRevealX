@@ -1,4 +1,3 @@
-<img width="273" height="80" alt="Screenshot 2026-09-03 131439" src="https://github.com/user-attachments/assets/2aa25275-a059-4943-b562-3725cc6d7174" />
 
 # MetaRevealX 🛡️
 
@@ -10,6 +9,7 @@
 
 ---
 
+<img width="273" height="80" alt="Screenshot 2026-09-03 131439" src="https://github.com/user-attachments/assets/2aa25275-a059-4943-b562-3725cc6d7174" />
 
 ## ⚡ Overview
 
