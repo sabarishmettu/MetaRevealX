@@ -1,59 +1,79 @@
-# MetaShield 🛡️
+# MetaRevealX 🛡️
 
-**Privacy-First File Metadata Security & Analysis Platform**
+**Zero-Server, Browser-Based Metadata Security & Privacy Platform**
 
-> *See what your files reveal. Take back control.*
+> *Inspect what your files reveal. Surgically edit, sanitize, or strip hidden metadata in 100% memory.*
 
-MetaShield is an open, modern, privacy-focused browser application that analyzes hidden metadata, detects geolocation tags (GPS), identifies device serials and author footprints, and losslessly cleans your files before you share them.
+🌐 **Live Demo / Test Link**: [https://metareveal-x.vercel.app/](https://metareveal-x.vercel.app/)
+
+---
+
+## ⚡ Overview
+
+**MetaRevealX** is a client-side cybersecurity utility designed to analyze, modify, and strip hidden file metadata—such as GPS coordinates, camera serials, author identities, software versions, and timestamp fingerprints—without uploading your data to any external server.
 
 ---
 
 ## 🔐 Core Privacy Philosophy
 
-* **100% Client-Side Processing**: Files are processed in your browser memory via Web Workers and typed `ArrayBuffer` pipelines.
-* **Zero Server Storage**: Your files are never uploaded, logged, or permanently stored on any server.
-* **No Account Required**: Completely stateless and anonymous.
-* **Non-Destructive Sanitization**: Your original file is never overwritten. MetaShield generates a separate cleaned copy (`_clean.ext`).
+* **100% In-Browser Memory Processing**: All parsing, editing, and binary sanitization occurs strictly inside your browser session using typed `ArrayBuffer` and Web Worker pipelines.
+* **0-Server Footprint**: No backend file storage, no logging, no external API uploads.
+* **Lossless Binary Sanitization**: Strips `APP1` (EXIF/XMP), `APP2`, `APP13` (IPTC), and comments directly at the byte level without recompressing pixels or degrading image quality.
+* **Non-Destructive**: Original files are never overwritten; cleaned files are generated as separate, sanitized downloads.
 
 ---
 
-## ⚡ Features
+## ✨ Features
 
-1. **EXIF & Metadata Scanner**: Deep inspection of EXIF, IPTC, XMP, ICC, and chunk headers.
-2. **Transparent Privacy Risk Scoring**: Algorithmic 0–100 threat assessment categorized into LOW, MODERATE, ELEVATED, HIGH, and CRITICAL risk tiers.
-3. **GPS Coordinate Extraction**: Pinpoint extraction of latitude, longitude, and elevation with interactive OpenStreetMap preview and 1-click removal.
-4. **Lossless JPEG & PNG Sanitization**: Removes `APP1` (EXIF/XMP), `APP2`, `APP13` (IPTC), and `COM` chunks at the binary level without recompressing pixels or degrading optical quality.
-5. **PDF Metadata Cleaner**: Clears Author, Creator, Producer, and document timestamps.
-6. **Interactive Metadata Editor**: Surgically edit or retain specific fields like Titles, Authors, or Copyrights.
-7. **Comprehensive Audit Reports**: Downloadable and printable privacy assessment reports.
+1. **Deep Metadata Inspection**: Scans EXIF, IPTC, XMP, ICC color profiles, and PDF structural metadata headers.
+2. **Interactive In-Place Metadata Editor**: Modify extracted values (Author, Copyright, Title, Software, File Name) directly within editable textboxes with instant reset and save capabilities.
+3. **GPS Coordinate Extraction & Map View**: Automatically extracts latitude, longitude, and elevation with interactive OpenStreetMap previews and 1-click GPS wiping.
+4. **Transparent Risk Scoring**: 0–100 privacy threat index highlighting sensitive personal exposures (locations, usernames, hardware signatures).
+5. **Multi-Format Support**: Full support for JPEG, PNG, WebP, PDF, TIFF, and HEIC files.
+6. **Downloadable Audit Reports**: Export comprehensive markdown and printable PDF/text privacy inspection summaries.
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Tech Stack
 
-* **Framework**: React 19 + Vite + TypeScript
-* **Styling**: Tailwind CSS (Dark Cybersecurity Theme)
-* **Metadata Parsers**: `exifreader`, `piexifjs`, `pdf-lib`
+* **Frontend**: React 19, TypeScript, Vite
+* **Styling**: Tailwind CSS
+* **Metadata Engines**: `exifreader`, `piexifjs`, `pdf-lib`
 * **Icons**: `lucide-react`
 * **Animations**: `canvas-confetti`, `motion`
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Quick Start
 
-### Installation
+### Local Development
 
-```bash
-git clone https://github.com/metashield/metashield.git
-cd metashield
-npm install
-npm run dev
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/metarevealx/metarevealx.git
+   cd metarevealx
+   ```
 
-Open your browser at `http://localhost:3000`.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 🔗 Links
+
+* **Live Deployment**: [https://metareveal-x.vercel.app/](https://metareveal-x.vercel.app/)
 
 ---
 
 ## 📄 License
 
-Apache-2.0 License.
+Licensed under the Apache-2.0 License.
